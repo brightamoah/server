@@ -20,6 +20,7 @@ app.get('/paystack', (req, res) => {
         path: '/transaction/initialize',
         method: 'POST',
         headers: {
+            //the API key is just for testing and is already revoked
             Authorization: 'Bearer sk_test_2fceb3e464ec59cd4d1b44823bec9ebe5f4a13e0',
             'Content-Type': 'application/json'
         }
